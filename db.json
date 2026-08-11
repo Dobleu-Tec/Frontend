@@ -1,0 +1,36 @@
+{
+  "docentes": [
+    {
+      "id": "1",
+      "nombre": "Juan Pérez",
+      "documento": "123456789",
+      "correo": "juan.perez@cesde.edu.co"
+    },
+    {
+      "id": "2",
+      "nombre": "María Gómez",
+      "documento": "987654321",
+      "correo": "maria.gomez@cesde.edu.co"
+    }
+  ],
+  "cursos": [
+    {
+      "id": "1",
+      "nombre": "Desarrollo Web Full Stack",
+      "descripcion": "Aprende a crear aplicaciones web completas con React y Node.js.",
+      "duracion": 16,
+      "precio": 1200000,
+      "fechaInicio": "2026-09-01T08:00",
+      "docenteId": "1"
+    },
+    {
+      "id": "2",
+      "nombre": "Diseño UI/UX",
+      "descripcion": "Fundamentos de diseño de interfaces y experiencia de usuario.",
+      "duracion": 8,
+      "precio": 800000,
+      "fechaInicio": "2026-09-15T18:00",
+      "docenteId": "2"
+    }
+  ]
+}
